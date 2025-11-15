@@ -7,4 +7,4 @@ const listSong = async (req,res) =>{
 
 }
 
-export {addSong, listSong}
+export {addSong, listSong};

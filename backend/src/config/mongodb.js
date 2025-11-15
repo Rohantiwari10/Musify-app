@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const connectDB = async () =>{
 
-    MongooseError.connection.on('connected', () => {
+    mongoose.connection.on('connected', () => {
         console.log("connection established");
         
     })
